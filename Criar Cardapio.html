@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <link rel="stylesheet" href="./CSS/Cardapio.css">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Criar Cardápio - Apptitivo</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="./index.HTML">Home</a></li>
+          <li><a href="./Criar Cardapio.html">Cardápios</a></li>
+          <li><a href="./Cadastro.html">Cadastro</a></li>
+          <li><a href="./PERSONA.HTML">Persona</a></li>
+          <li><a href="./mapaEmpatia.html">Mapa de Empatia</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Crie seu cardápio personalizado</h1>
+      <form>
+        <fieldset>
+            <legend>Seu cardápio</legend>
+            <p>Escolha até 5 pratos para o seu cardápio:</p>
+            <div class="opcao">
+              <input type="checkbox" id="prato1" name="prato1" value="strogonoff" />
+              <label for="prato1">Strogonoff de frango</label>
+            </div>
+            <div class="opcao">
+              <input type="checkbox" id="prato2" name="prato2" value="risoto" />
+              <label for="prato2">Risoto de cogumelos</label>
+            </div>
+            <div class="opcao">
+              <input type="checkbox" id="prato3" name="prato3" value="salmão" />
+              <label for="prato3">Salmão grelhado</label>
+            </div>
+            <div class="opcao">
+              <input type="checkbox" id="prato4" name="prato4" value="vegetariano" />
+              <label for="prato4">Opção vegetariana</label>
+            </div>
+            <div class="opcao">
+              <input type="checkbox" id="prato5" name="prato5" value="vegano" />
+              <label for="prato5">Opção vegana</label>
+            </div>
+            
+        </fieldset>
+        <div class="Tempo">
+          <label for="data-entrega">Data de entrega:</label>
+          <input type="date" id="data-entrega" name="data-entrega" required />
+        </div>
+        <div class="Tempo">
+          <label for="hora-entrega">Horário de entrega:</label>
+          <input type="time" id="hora-entrega" name="hora-entrega" required />
+        </div>
+        <div class="Tempo Observacoes">
+            <label for="observacoes">Observações:</label>
+            <textarea id="observacoes" name="observacoes"></textarea>
+          </div>
+        <div class="tempo">
+          <button type="submit">Enviar</button>
+        </div>
+      </form>
+    </main>
+    <footer>
+      <p>© 2023 Apptitivo. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
