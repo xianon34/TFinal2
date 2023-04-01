@@ -78,7 +78,7 @@ header {
 }
 
 footer {
-    position: bottom;
+    position: flex;
     bottom: 0;
     left: 0;
     right: 0;
